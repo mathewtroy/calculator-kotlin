@@ -2,11 +2,11 @@
     <string name="app_name">kotlin</string>
     <string name="enter_first_number">Enter first number</string>
     <string name="enter_second_number">Enter second number</string>
-    <string name="add">+</string>
-    <string name="subtract">-</string>
-    <string name="multiply">*</string>
-    <string name="divide">/</string>
     <string name="result">Result</string>
     <string name="created_by_aleksandr_k_n_fel_2024">Created by Aleksandr K.\n© FEL-2024</string>
     <string name="welcome_dear_user">Welcome, dear user</string>
+    <string name="division">Division</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="addition">Addition</string>
 </resources>
