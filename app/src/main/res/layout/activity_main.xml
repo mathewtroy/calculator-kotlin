@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_first_number"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_first_number" />
+
+    <EditText
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_second_number"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_second_number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_multiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/multiply" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/add" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_subtraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/subtract" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/divide" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_tv"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textSize="44sp"
+    />
+
+    <include layout="@layout/footer"/>
+</LinearLayout>
